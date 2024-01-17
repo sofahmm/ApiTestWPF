@@ -1,0 +1,27 @@
+﻿<Window x:Class="ApiTestWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ApiTestWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="TextBoxxx" TextWrapping="Wrap" Loaded="TextBox_Loaded"/>
+        <TextBlock x:Name="tb1" Grid.Column="1"/>
+        <TextBlock x:Name="tb2" Grid.Column="2"/>
+        <TextBlock x:Name="tb3"/>
+        <TextBlock x:Name="tb4"/>
+    </Grid>
+</Window>
